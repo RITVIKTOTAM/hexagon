@@ -81,7 +81,7 @@ function draw() {
 
 function keyPressed(){
   if  (keyDown(UP_ARROW)){
-    Matter.Body.applyForce(polygon1.body,polygon1.body.position,{x:15,y:-15});
+    Matter.Body.applyForce(polygon1.body,polygon1.body.position,{x:60,y:-60});
   }
 }
 
