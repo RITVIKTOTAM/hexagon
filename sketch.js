@@ -18,7 +18,7 @@ function setup() {
   
 
  
-  polygon1 = new Polygon(200,335,20,20);
+  polygon1 = new Polygon(200,335,40,40);
   ground1 = new Ground(395,400,800,10);
   ground2 = new Ground(500,350,160,10);
   ball1 = new Ball(440,329,20,30);
